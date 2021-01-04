@@ -1,0 +1,10 @@
+n1 = input('Digite alguma coisa: ')
+num = n1.isnumeric()
+alpha = n1.isalpha()
+alnum = n1.isalnum()
+upper = n1.isupper()
+
+print('É numero? ', num)
+print('É letra? ', alpha)
+print('É alfanumerico? ', alnum)
+print('Está em maiúsculas? ', upper)
